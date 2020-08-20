@@ -1,0 +1,31 @@
+body {
+  background-color: #E5E5E5;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav .navbar-brand {
+  font-size: 38px;
+}
+
+nav .nav-link {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav .nav-link.active {
+  color: #C32C72 !important;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.heading h1 {
+  font-size: 34px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

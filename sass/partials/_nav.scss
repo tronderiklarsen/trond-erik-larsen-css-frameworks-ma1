@@ -1,0 +1,16 @@
+nav {
+
+    .navbar-brand {
+        font-size: 38px;
+    }
+
+    .nav-link {
+        font-family: $font-secondary;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .nav-link.active {
+        color: map-get($colors, primary) !important;
+    }
+}

@@ -1,0 +1,10 @@
+.boxes {
+    display: flex;
+    flex-wrap: nowrap;
+
+    .boxes-item {
+        height: 263px;
+        width: 264px;
+        border-radius: 15%;
+    }
+}
