@@ -1,5 +1,7 @@
 nav {
 
+    background-color: map-get($colors, alabaster) !important;
+
     .navbar-brand {
         font-size: 38px;
     }

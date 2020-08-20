@@ -1,10 +1,22 @@
 .boxes {
     display: flex;
-    flex-wrap: nowrap;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    
     .boxes-item {
         height: 263px;
         width: 264px;
-        border-radius: 15%;
+        margin-right: 32px;
+        background-color: map-get($colors, alabaster) !important;
+    }
+
+    .boxes-item.lined {
+        background-color: white !important;
+        border: 3px solid map-get($colors, primary);
+    }
+
+    .boxes-item.filled {
+        background-color: map-get($colors, primary) !important;
+        border: 3px solid white;
     }
 }

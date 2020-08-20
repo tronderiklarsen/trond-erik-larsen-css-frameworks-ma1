@@ -1,6 +1,11 @@
 body {
   background-color: #E5E5E5;
   font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+}
+
+nav {
+  background-color: #F4F3EE !important;
 }
 
 nav .navbar-brand {
@@ -21,11 +26,39 @@ nav .nav-link.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  margin: 40px 0 40px 0;
 }
 
 .heading h1 {
   font-size: 34px;
   margin: 0 auto;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxes .boxes-item {
+  height: 263px;
+  width: 264px;
+  margin-right: 32px;
+  background-color: #F4F3EE !important;
+}
+
+.boxes .boxes-item.lined {
+  background-color: white !important;
+  border: 3px solid #C32C72;
+}
+
+.boxes .boxes-item.filled {
+  background-color: #C32C72 !important;
+  border: 3px solid white;
 }
 /*# sourceMappingURL=style.css.map */
