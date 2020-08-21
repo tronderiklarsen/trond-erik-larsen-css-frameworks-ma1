@@ -1,7 +1,9 @@
 nav {
 
-    background-color: map-get($colors, alabaster) !important;
-
+    .navbar {
+        background: map-get($colors, alabaster) !important;
+    }
+    
     .navbar-brand {
         font-size: 38px;
     }
@@ -10,6 +12,11 @@ nav {
         font-family: $font-secondary;
         font-size: 18px;
         text-transform: uppercase;
+        color: map-get($colors, spanish-gray) !important;
+    }
+
+    .nav-link:hover {
+        color: lighten($color: map-get($colors, spanish-gray), $amount: 10) !important;
     }
 
     .nav-link.active {
