@@ -7,7 +7,7 @@
         "../sass/partials/_base.scss",
         "../sass/partials/_nav.scss",
         "../sass/partials/_typography.scss",
-        "../sass/partials/_card.scss",
+        "../sass/partials/_boxes.scss",
         "../sass/partials/_footer.scss"
     ],
     "names": [],
